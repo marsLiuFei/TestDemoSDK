@@ -2,8 +2,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TestDemoSDK"
-  spec.version      = "0.0.1"
-  spec.summary      = "test TestDemoSDK 1217"
+  spec.version      = "0.0.2"
+  spec.summary      = "test TestDemoSDK 1223"
 
   spec.description  = <<-DESC
   此版本SDK说明文字，自己根据实际书写
