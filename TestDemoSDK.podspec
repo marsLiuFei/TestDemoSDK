@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/marsLiuFei/TestDemoSDK.git", :tag => "#{spec.version}" }
 
-  #spec.resource  = 'TestDemoSDK/Resource.bundle'
+  spec.resource  = 'TestDemoSDK/Resource.bundle'
   spec.ios.vendored_frameworks = 'TestDemoSDK/TestDemoSDK.framework'
    spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
