@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "EIMSDKFramework"
+  spec.name         = "TestDemoSDK"
   spec.version      = "0.0.1"
   spec.summary      = "test TestDemoSDK 1217"
 
