@@ -2,8 +2,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TestDemoSDK"
-  spec.version      = "0.0.3"
-  spec.summary      = "test TestDemoSDK 1223"
+  spec.version      = "0.0.4"
+  spec.summary      = "test TestDemoSDK 1224"
 
   spec.description  = <<-DESC
   此版本SDK说明文字，自己根据实际书写
@@ -19,9 +19,9 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/marsLiuFei/TestDemoSDK.git", :tag => "#{spec.version}" }
 
-  spec.resource  = 'TestDemoSDK/Resource.bundle'
+  #spec.resource  = 'TestDemoSDK/Resource.bundle'
   spec.ios.vendored_frameworks = 'TestDemoSDK/TestDemoSDK.framework'
-   spec.pod_target_xcconfig = {
+  spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
